@@ -5,8 +5,8 @@
     "requiresInstalledPackage": true,
     "composerRequires": ["capell-app/widget-showcase"],
     "outputDirectory": "packages/widget-showcase/docs/screenshots",
-    "auditStatus": "illustrative-fixture",
-    "auditReason": "Deterministic catalogue fixture documents this runtime or bundle package without claiming a package-owned UI.",
+    "auditStatus": "fixture-needed",
+    "auditReason": "Real widget pages and editor routes are prepared; authentic browser recapture and visual acceptance remain required.",
     "entries": [
         {
             "id": "widget-showcase-extension-card",
@@ -24,19 +24,25 @@
         },
         {
             "id": "widget-showcase-catalogue-preview",
-            "title": "Illustrative widget showcase catalogue card.",
+            "title": "Installed widget showcase",
             "package": "widget-showcase",
             "surface": "frontend",
             "targetType": "frontend-url",
-            "target": "/screenshot-fixtures/catalogue/widget-showcase/widget-showcase-catalogue-preview",
-            "url": "/screenshot-fixtures/catalogue/widget-showcase/widget-showcase-catalogue-preview",
+            "target": "/screenshot-fixtures/widgets/showcase/public",
+            "url": "/screenshot-fixtures/widgets/showcase/public",
             "required": true,
             "colorSchemes": ["light", "dark"],
             "screenshotPath": "packages/widget-showcase/docs/screenshots/widget-showcase-catalogue-preview.png",
-            "fixtureKind": "illustrative-catalogue",
-            "notes": "Illustrative deterministic catalogue fixture, not a live package UI capture. Illustrative deterministic catalogue fixture; this runtime or bundle package does not own a standalone UI.",
+            "notes": "Capture the installed public page rendered from the package widget definition, with its real assets and local media. Verify the visible widget and its interaction; reject empty, unavailable or unstyled output.",
             "useCase": "A buyer can distinguish this package in the marketplace catalogue without mistaking placeholder artwork for product UI.",
-            "darkScreenshotPath": "packages/widget-showcase/docs/screenshots/widget-showcase-catalogue-preview-dark.png"
+            "darkScreenshotPath": "packages/widget-showcase/docs/screenshots/widget-showcase-catalogue-preview-dark.png",
+            "user": false,
+            "waitFor": ".capell-countdown",
+            "requiredViewport": {
+                "width": 1440,
+                "height": 900
+            },
+            "viewport": "desktop"
         }
     ],
     "notes": "No screenshot runner target exists. Member extensions provide their own editor and public-output capture contracts."
