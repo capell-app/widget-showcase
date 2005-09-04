@@ -35,7 +35,10 @@ Screenshot contract: `docs/screenshots.json`.
 
 ![Widget Showcase extension card](docs/screenshots/extension-card.svg)
 
-- Widget Showcase extension card (marketplace, required).
+![Illustrative widget showcase catalogue card](docs/screenshots/widget-showcase-catalogue-preview.png)
+
+- Widget Showcase extension card (marketplace, required evidence).
+- Illustrative widget showcase catalogue card (frontend, required evidence).
 
 ## Technical Shape
 
@@ -50,7 +53,7 @@ This package has no schema impact. It delegates runtime behaviour to `capell-app
 - Required packages: `capell-app/widget-audio-playlist`, `capell-app/widget-before-after`, `capell-app/widget-content-reveal`, `capell-app/widget-countdown`, `capell-app/widget-data-chart`, `capell-app/widget-hotspots`, `capell-app/widget-live-poll`, `capell-app/widget-location-map`, `capell-app/widget-slideshow`, `capell-app/widget-youtube`.
 - Admin navigation: no admin page or resource contribution is declared.
 - Admin/editor extensions: none declared.
-- Permissions: none declared in `capell.json`.
+- Permissions: no package permission declarations or Shield gates detected; host access rules still apply.
 - Public routes: none declared.
 - Database changes: no package migrations declared.
 - Config: no package config files.
@@ -61,13 +64,12 @@ This package has no schema impact. It delegates runtime behaviour to `capell-app
 
 ## Common Pitfalls
 
-- Keep required Capell packages on compatible v4 releases: `capell-app/widget-audio-playlist`, `capell-app/widget-before-after`, `capell-app/widget-content-reveal`, `capell-app/widget-countdown`, `capell-app/widget-data-chart`, `capell-app/widget-hotspots`, `capell-app/widget-live-poll`, `capell-app/widget-location-map`, and 2 more.
+- Keep required Capell packages on compatible v4 releases: `capell-app/widget-audio-playlist`, `capell-app/widget-before-after`, `capell-app/widget-content-reveal`, `capell-app/widget-countdown`, `capell-app/widget-data-chart`, `capell-app/widget-hotspots`, `capell-app/widget-live-poll`, `capell-app/widget-location-map`, `capell-app/widget-slideshow`, `capell-app/widget-youtube`.
 
 ## Quick Start
 
 1. Install the package: `composer require capell-app/widget-showcase`.
-2. No package-specific setup command or migrations are declared.
-3. Open the package detail or install-intent surface and confirm the Widget Showcase extension card is present.
+2. Open `/screenshot-fixtures/catalogue/widget-showcase/widget-showcase-catalogue-preview` and confirm the public output renders without admin state.
 
 ## Next Steps
 
