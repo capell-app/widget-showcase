@@ -5,7 +5,7 @@
     "displayName": "Widget Showcase",
     "kind": "bundle",
     "capellApiVersion": "^1.0",
-    "version": "1.x-dev",
+    "version": "1.0.0",
     "description": "A dependency bundle that installs all ten Capell Foundation widget extensions together; it adds no runtime surface itself.",
     "product": {
         "group": "Capell Foundation",
