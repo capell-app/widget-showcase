@@ -19,5 +19,10 @@ it('keeps composer and manifest members in exact parity', function (): void {
         ->and($manifest['kind'])->toBe('bundle')
         ->and($manifest['providers'])->each->toBe([])
         ->and($manifest['contributes'])->toBe([])
-        ->and($manifest['healthChecks'])->toBe([]);
+        ->and($manifest['healthChecks'])->toBe([])
+        ->and($manifest['surfaces'])->toBe([])
+        ->and($manifest['marketplace']['screenshots'])->toBe([])
+        ->and($manifest['marketplace']['categories'])->not->toContain('frontend')
+        ->and($manifest['description'])->toContain('no runtime surface')
+        ->and((string) file_get_contents($root . '/README.md'))->toContain('does not add a showcase page');
 });

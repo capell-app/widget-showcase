@@ -1,5 +1,5 @@
-# Widget Showcase
+# Widget Showcase dependency bundle
 
-A normal data-only Composer library that installs all ten independently healthy Capell Foundation widget extensions. It has no providers, contributions, or direct health checks; Capell derives bundle health from its members.
+A data-only Composer dependency bundle that installs all ten Capell Foundation widget extensions together. It does not add a showcase page, widget, provider, contribution, or direct health check; the installed member extensions own every runtime surface and health signal.
 
-Removing the bundle leaves member packages installed. Deleting the bundle promotes any members that lack another direct constraint before removing the aggregate requirement, so existing content remains renderable.
+Use it when a site needs the complete Foundation widget set. Removing the bundle does not remove its member packages or existing widget content.

@@ -6,7 +6,7 @@
     "kind": "bundle",
     "capellApiVersion": "^4.1",
     "version": "4.x-dev",
-    "description": "The complete ten-widget Capell Foundation showcase, installable as a single atomic bundle.",
+    "description": "A dependency bundle that installs all ten Capell Foundation widget extensions together; it adds no runtime surface itself.",
     "product": {"group": "Capell Foundation", "tier": "free", "bundle": "foundation"},
     "namespace": "Capell\\WidgetShowcase",
     "surfaces": [],
@@ -35,5 +35,5 @@
     "performance": {"frontendRenderBudgetMs": 0, "adminQueryBudget": 0, "cacheTags": [], "cacheSafety": {"cacheable": false, "variesBy": [], "sensitiveOutput": false, "invalidationSources": [], "queueInvalidation": false}},
     "healthChecks": [],
     "commercial": {"proposedLicense": "free", "requestedCertification": "first-party", "supportPolicy": "capell-first-party", "privateDocsRequested": false},
-    "marketplace": {"summary": "Install all ten free Foundation widgets in one recoverable operation.", "screenshots": [{"path": "docs/assets/marketplace/extension-card.jpg", "alt": "Gallery of ten Capell widgets", "caption": "All ten Foundation widgets"}], "categories": ["bundle", "foundation", "frontend"]}
+    "marketplace": {"summary": "Install the ten free Foundation widget extensions together. This dependency bundle has no page or widget of its own.", "screenshots": [], "categories": ["bundle", "foundation"]}
 }
