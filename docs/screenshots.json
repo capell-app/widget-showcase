@@ -3,12 +3,24 @@
     "composerName": "capell-app/widget-showcase",
     "generatedFor": "deployment-screenshot-runner",
     "requiresInstalledPackage": true,
-    "composerRequires": [
-        "capell-app/widget-showcase"
-    ],
+    "composerRequires": ["capell-app/widget-showcase"],
     "outputDirectory": "packages/widget-showcase/docs/screenshots",
     "auditStatus": "visual-exempt",
     "auditReason": "Widget Showcase is a dependency bundle with no admin page, frontend output, or runtime surface of its own.",
-    "entries": [],
+    "entries": [
+        {
+            "id": "widget-showcase-extension-card",
+            "title": "Widget Showcase extension card.",
+            "package": "widget-showcase",
+            "surface": "marketplace",
+            "targetType": "marketplace-asset",
+            "target": "extension-card",
+            "required": true,
+            "path": "docs/assets/marketplace/extension-card.svg",
+            "screenshotPath": "packages/widget-showcase/docs/screenshots/extension-card.svg",
+            "notes": "Committed Beta Marketplace card artwork for Widget Showcase.",
+            "useCase": "A buyer reviews the Beta extension card before enabling Widget Showcase."
+        }
+    ],
     "notes": "No screenshot runner target exists. Member extensions provide their own editor and public-output capture contracts."
 }
