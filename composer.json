@@ -1,0 +1,28 @@
+{
+    "name": "capell-app/widget-showcase",
+    "description": "Install all ten free Capell Foundation widget extensions as one bundle.",
+    "type": "library",
+    "license": "proprietary",
+    "require": {
+        "php": "^8.4",
+        "capell-app/widget-audio-playlist": "^1.0 || 1.x-dev",
+        "capell-app/widget-before-after": "^1.0 || 1.x-dev",
+        "capell-app/widget-content-reveal": "^1.0 || 1.x-dev",
+        "capell-app/widget-countdown": "^1.0 || 1.x-dev",
+        "capell-app/widget-data-chart": "^1.0 || 1.x-dev",
+        "capell-app/widget-hotspots": "^1.0 || 1.x-dev",
+        "capell-app/widget-live-poll": "^1.0 || 1.x-dev",
+        "capell-app/widget-location-map": "^1.0 || 1.x-dev",
+        "capell-app/widget-slideshow": "^1.0 || 1.x-dev",
+        "capell-app/widget-youtube": "^1.0 || 1.x-dev"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-main": "1.x-dev"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "prefer-stable": true
+}
