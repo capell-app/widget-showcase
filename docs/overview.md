@@ -1,4 +1,4 @@
-# Widget Showcase dependency bundle
+# Widget Showcase
 
 <!-- prettier-ignore-start -->
 
