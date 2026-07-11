@@ -5,16 +5,16 @@
     "license": "proprietary",
     "require": {
         "php": "^8.4",
-        "capell-app/widget-audio-playlist": "^0.0.2 || 0.0.x-dev",
-        "capell-app/widget-before-after": "^0.0.2 || 0.0.x-dev",
-        "capell-app/widget-content-reveal": "^0.0.2 || 0.0.x-dev",
-        "capell-app/widget-countdown": "^0.0.2 || 0.0.x-dev",
-        "capell-app/widget-data-chart": "^0.0.2 || 0.0.x-dev",
-        "capell-app/widget-hotspots": "^0.0.2 || 0.0.x-dev",
-        "capell-app/widget-live-poll": "^0.0.2 || 0.0.x-dev",
-        "capell-app/widget-location-map": "^0.0.2 || 0.0.x-dev",
-        "capell-app/widget-slideshow": "^0.0.2 || 0.0.x-dev",
-        "capell-app/widget-youtube": "^0.0.2 || 0.0.x-dev"
+        "capell-app/widget-audio-playlist": "^0.0.1 || 0.0.x-dev",
+        "capell-app/widget-before-after": "^0.0.1 || 0.0.x-dev",
+        "capell-app/widget-content-reveal": "^0.0.1 || 0.0.x-dev",
+        "capell-app/widget-countdown": "^0.0.1 || 0.0.x-dev",
+        "capell-app/widget-data-chart": "^0.0.1 || 0.0.x-dev",
+        "capell-app/widget-hotspots": "^0.0.1 || 0.0.x-dev",
+        "capell-app/widget-live-poll": "^0.0.1 || 0.0.x-dev",
+        "capell-app/widget-location-map": "^0.0.1 || 0.0.x-dev",
+        "capell-app/widget-slideshow": "^0.0.1 || 0.0.x-dev",
+        "capell-app/widget-youtube": "^0.0.1 || 0.0.x-dev"
     },
     "extra": {
         "branch-alias": {
