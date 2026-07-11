@@ -35,5 +35,11 @@
     "performance": {"frontendRenderBudgetMs": 0, "adminQueryBudget": 0, "cacheTags": [], "cacheSafety": {"cacheable": false, "variesBy": [], "sensitiveOutput": false, "invalidationSources": [], "queueInvalidation": false}},
     "healthChecks": [],
     "commercial": {"proposedLicense": "free", "requestedCertification": "first-party", "supportPolicy": "capell-first-party", "privateDocsRequested": false},
-    "marketplace": {"summary": "Install the ten free Foundation widget extensions together. This dependency bundle has no page or widget of its own.", "screenshots": [], "categories": ["bundle", "foundation"]}
+    "marketplace": {"summary": "Install the ten free Foundation widget extensions together. This dependency bundle has no page or widget of its own.", "screenshots": [
+        {
+            "path": "docs/assets/marketplace/extension-card.svg",
+            "alt": "Widget Showcase dependency bundle artwork showing its ten included extensions",
+            "caption": "A dependency bundle that installs all ten Foundation widget extensions; it adds no screen or runtime surface."
+        }
+    ], "categories": ["bundle", "foundation"]}
 }

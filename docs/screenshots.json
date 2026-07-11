@@ -1,0 +1,14 @@
+{
+    "package": "widget-showcase",
+    "composerName": "capell-app/widget-showcase",
+    "generatedFor": "deployment-screenshot-runner",
+    "requiresInstalledPackage": true,
+    "composerRequires": [
+        "capell-app/widget-showcase"
+    ],
+    "outputDirectory": "packages/widget-showcase/docs/screenshots",
+    "auditStatus": "visual-exempt",
+    "auditReason": "Widget Showcase is a dependency bundle with no admin page, frontend output, or runtime surface of its own.",
+    "entries": [],
+    "notes": "No screenshot runner target exists. Member extensions provide their own editor and public-output capture contracts."
+}
