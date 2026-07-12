@@ -1,0 +1,110 @@
+{
+    "manifest-version": 3,
+    "name": "capell-app/widget-showcase",
+    "slug": "widget-showcase",
+    "displayName": "Widget Showcase",
+    "kind": "bundle",
+    "capellApiVersion": "^0.0.1",
+    "version": "0.0.x-dev",
+    "description": "A dependency bundle that installs all ten Capell Foundation widget extensions together; it adds no runtime surface itself.",
+    "product": {
+        "group": "Capell Foundation",
+        "tier": "free",
+        "bundle": "foundation"
+    },
+    "namespace": "Capell\\WidgetShowcase",
+    "surfaces": [],
+    "dependencies": {
+        "requires": [
+            "capell-app/widget-audio-playlist",
+            "capell-app/widget-before-after",
+            "capell-app/widget-content-reveal",
+            "capell-app/widget-countdown",
+            "capell-app/widget-data-chart",
+            "capell-app/widget-hotspots",
+            "capell-app/widget-live-poll",
+            "capell-app/widget-location-map",
+            "capell-app/widget-slideshow",
+            "capell-app/widget-youtube"
+        ],
+        "supports": [],
+        "conflicts": []
+    },
+    "providers": {
+        "metadata": [],
+        "install": [],
+        "runtime": [],
+        "admin": [],
+        "frontend": []
+    },
+    "contributes": [],
+    "database": {
+        "migrations": false,
+        "settings": false,
+        "requiredTables": []
+    },
+    "commands": {
+        "install": null,
+        "setup": null,
+        "setupParams": [],
+        "demo": null,
+        "doctor": null
+    },
+    "settings": [],
+    "permissions": [],
+    "capabilities": [],
+    "security": {
+        "riskTier": "low",
+        "publicSurface": {
+            "routeNames": [],
+            "auth": "none",
+            "csrfExemptRoutes": [],
+            "signedRoutes": [],
+            "tokenizedRoutes": [],
+            "webhookRoutes": [],
+            "throttledRoutes": []
+        },
+        "sensitiveData": {
+            "encryptedFields": [],
+            "hashedTokenFields": [],
+            "redactedOutputClasses": [],
+            "plaintextJustifications": []
+        },
+        "publicOutput": {
+            "cacheSafe": true,
+            "forbidAuthoringSurface": true,
+            "forbidSecrets": true,
+            "forbidPublicBladeQueries": true
+        },
+        "externalHttpClients": {
+            "requiresTimeouts": false,
+            "requiresSecretRedaction": false,
+            "clients": []
+        },
+        "adminSurface": { "authorization": "none", "permissions": [] }
+    },
+    "performance": {
+        "frontendRenderBudgetMs": 0,
+        "adminQueryBudget": 0,
+        "cacheTags": [],
+        "cacheSafety": {
+            "cacheable": false,
+            "variesBy": [],
+            "sensitiveOutput": false,
+            "invalidationSources": [],
+            "queueInvalidation": false
+        }
+    },
+    "healthChecks": [],
+    "commercial": {
+        "proposedLicense": "free",
+        "requestedCertification": "first-party",
+        "supportPolicy": "capell-first-party",
+        "privateDocsRequested": false
+    },
+    "marketplace": {
+        "summary": "Install the ten free Foundation widget extensions together. This dependency bundle has no page or widget of its own.",
+        "screenshots": [],
+        "categories": ["bundle", "foundation"]
+    }
+}
