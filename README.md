@@ -29,6 +29,8 @@ Status details:
 
 Screenshot contract: `docs/screenshots.json`.
 
+![Widget Showcase extension card](docs/screenshots/extension-card.svg)
+
 - Widget Showcase extension card (marketplace, required).
 
 ## Technical Shape
