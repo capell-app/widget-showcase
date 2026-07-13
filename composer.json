@@ -5,16 +5,16 @@
     "license": "proprietary",
     "require": {
         "php": "^8.4",
-        "capell-app/widget-audio-playlist": "^1.0",
-        "capell-app/widget-before-after": "^1.0",
-        "capell-app/widget-content-reveal": "^1.0",
-        "capell-app/widget-countdown": "^1.0",
-        "capell-app/widget-data-chart": "^1.0",
-        "capell-app/widget-hotspots": "^1.0",
-        "capell-app/widget-live-poll": "^1.0",
-        "capell-app/widget-location-map": "^1.0",
-        "capell-app/widget-slideshow": "^1.0",
-        "capell-app/widget-youtube": "^1.0"
+        "capell-app/widget-audio-playlist": "^4.0",
+        "capell-app/widget-before-after": "^4.0",
+        "capell-app/widget-content-reveal": "^4.0",
+        "capell-app/widget-countdown": "^4.0",
+        "capell-app/widget-data-chart": "^4.0",
+        "capell-app/widget-hotspots": "^4.0",
+        "capell-app/widget-live-poll": "^4.0",
+        "capell-app/widget-location-map": "^4.0",
+        "capell-app/widget-slideshow": "^4.0",
+        "capell-app/widget-youtube": "^4.0"
     },
     "extra": {
         "branch-alias": {
