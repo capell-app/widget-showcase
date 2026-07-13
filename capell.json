@@ -104,7 +104,13 @@
     },
     "marketplace": {
         "summary": "Install the ten free Foundation widget extensions together. This dependency bundle has no page or widget of its own.",
-        "screenshots": [],
+        "screenshots": [
+            {
+                "path": "docs/assets/marketplace/extension-card.svg",
+                "alt": "Widget Showcase extension bundle card",
+                "caption": "Widget Showcase installs all ten Foundation widget extensions."
+            }
+        ],
         "categories": ["bundle", "foundation"]
     }
 }

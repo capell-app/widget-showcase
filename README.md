@@ -27,13 +27,11 @@ Status details:
 
 ## Screens And Workflow
 
-Docs gap: add `docs/screenshots.json` before promoting this package with visual workflow claims.
+Screenshot contract: `docs/screenshots.json`.
 
-- Admin index screen if the package has a Filament resource.
-- Create/edit screen if editors create records.
-- Settings/configuration screen when settings exist.
-- Frontend output when the package renders public pages.
-- Package detail or install intent screen when marketplace-owned.
+![Widget Showcase extension card](docs/screenshots/extension-card.svg)
+
+- Widget Showcase extension card (marketplace, required).
 
 ## Technical Shape
 
@@ -71,6 +69,8 @@ Docs gap: document extension points here if the package delegates persistence to
 
 - [Package docs](docs/README.md)
 - [Overview](docs/overview.md)
+- [Screenshot contract](docs/screenshots.json)
+- [Marketplace assets](docs/assets/marketplace/)
 - [Capell content language plan](../../docs/CONTENT_LANGUAGE_PLAN.md)
 - [Capell documentation design system](../../docs/DESIGN_SYSTEM.md)
 - [Capell and package ERD notes](../../docs/erd/capell-and-package-erds.md)
