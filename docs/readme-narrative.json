@@ -1,0 +1,36 @@
+{
+    "whatThisPluginAdds": {
+        "text": "Widget Showcase is a dependency bundle for the ten standalone Capell widget packages listed in its manifest. It does not register a provider, contribution, database schema, admin page, or frontend runtime surface of its own.",
+        "evidence": [
+            "capell.json",
+            "composer.json",
+            "tests/Unit/WidgetShowcaseManifestTest.php"
+        ]
+    },
+    "surfaceOutcome": {
+        "text": "Installing the bundle makes its required widget packages available through their own registrations; Widget Showcase itself adds no visible editor or public output.",
+        "evidence": [
+            "capell.json",
+            "composer.json",
+            "tests/Unit/WidgetShowcaseManifestTest.php"
+        ]
+    },
+    "whyItMatters": {
+        "developers": {
+            "text": "The package keeps collection-level installation declarative and leaves every runtime contract inside the individual widget package.",
+            "evidence": [
+                "capell.json",
+                "composer.json",
+                "tests/Unit/WidgetShowcaseManifestTest.php"
+            ]
+        },
+        "teams": {
+            "text": "Teams can require the curated widget set as one package while enabling and using each included widget through its own Capell surface.",
+            "evidence": [
+                "capell.json",
+                "composer.json",
+                "tests/Unit/WidgetShowcaseManifestTest.php"
+            ]
+        }
+    }
+}
