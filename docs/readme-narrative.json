@@ -8,7 +8,7 @@
         ]
     },
     "surfaceOutcome": {
-        "text": "Installing the bundle makes its required widget packages available through their own registrations; Widget Showcase itself adds no visible editor or public output.",
+        "text": "Installing the bundle makes its required widget packages available through their own registrations; Widget Showcase itself adds no runtime surface itself: no visible editor or public output.",
         "evidence": [
             "capell.json",
             "composer.json",

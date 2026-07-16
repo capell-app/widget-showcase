@@ -8,7 +8,7 @@ Widget Showcase is an **Available**, **No schema impact** Capell bundle in the *
 
 Widget Showcase is a dependency bundle for the ten standalone Capell widget packages listed in its manifest. It does not register a provider, contribution, database schema, admin page, or frontend runtime surface of its own.
 
-Installing the bundle makes its required widget packages available through their own registrations; Widget Showcase itself adds no visible editor or public output.
+Installing the bundle makes its required widget packages available through their own registrations; Widget Showcase itself adds no runtime surface itself: no visible editor or public output.
 
 Evidence: [`capell.json`](capell.json), [`composer.json`](composer.json), [`tests/Unit/WidgetShowcaseManifestTest.php`](tests/Unit/WidgetShowcaseManifestTest.php).
 
