@@ -81,7 +81,10 @@
             "requiresSecretRedaction": false,
             "clients": []
         },
-        "adminSurface": { "authorization": "none", "permissions": [] }
+        "adminSurface": {
+            "authorization": "none",
+            "permissions": []
+        }
     },
     "performance": {
         "frontendRenderBudgetMs": 0,
