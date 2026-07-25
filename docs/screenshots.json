@@ -5,11 +5,12 @@
     "requiresInstalledPackage": true,
     "composerRequires": ["capell-app/widget-showcase"],
     "outputDirectory": "packages/widget-showcase/docs/screenshots",
-    "auditStatus": "visual-exempt",
-    "auditReason": "Widget Showcase is a dependency bundle with no admin page, frontend output, or runtime surface of its own.",
+    "auditStatus": "illustrative-fixture",
+    "auditReason": "Deterministic catalogue fixture documents this runtime or bundle package without claiming a package-owned UI.",
     "entries": [
         {
             "id": "widget-showcase-extension-card",
+            "colorSchemes": ["light"],
             "title": "Widget Showcase extension card.",
             "package": "widget-showcase",
             "surface": "marketplace",
@@ -20,6 +21,22 @@
             "screenshotPath": "packages/widget-showcase/docs/screenshots/extension-card.svg",
             "notes": "Committed Beta Marketplace card artwork for Widget Showcase.",
             "useCase": "A buyer reviews the Beta extension card before enabling Widget Showcase."
+        },
+        {
+            "id": "widget-showcase-catalogue-preview",
+            "title": "Illustrative widget showcase catalogue card.",
+            "package": "widget-showcase",
+            "surface": "frontend",
+            "targetType": "frontend-url",
+            "target": "/screenshot-fixtures/catalogue/widget-showcase/widget-showcase-catalogue-preview",
+            "url": "/screenshot-fixtures/catalogue/widget-showcase/widget-showcase-catalogue-preview",
+            "required": true,
+            "colorSchemes": ["light", "dark"],
+            "screenshotPath": "packages/widget-showcase/docs/screenshots/widget-showcase-catalogue-preview.png",
+            "fixtureKind": "illustrative-catalogue",
+            "notes": "Illustrative deterministic catalogue fixture, not a live package UI capture. Illustrative deterministic catalogue fixture; this runtime or bundle package does not own a standalone UI.",
+            "useCase": "A buyer can distinguish this package in the marketplace catalogue without mistaking placeholder artwork for product UI.",
+            "darkScreenshotPath": "packages/widget-showcase/docs/screenshots/widget-showcase-catalogue-preview-dark.png"
         }
     ],
     "notes": "No screenshot runner target exists. Member extensions provide their own editor and public-output capture contracts."
