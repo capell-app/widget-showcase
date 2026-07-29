@@ -60,7 +60,7 @@ function widgetShowcaseArrayList(array $payload, string $key): array
     foreach ($values as $value) {
         throw_unless(is_array($value), RuntimeException::class, "Widget Showcase metadata [{$key}] must contain arrays.");
 
-        $validated[] = $value;
+        $validated[] = capell_string_keyed_array($value);
     }
 
     return $validated;
