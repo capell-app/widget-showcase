@@ -42,8 +42,16 @@
                 "width": 1440,
                 "height": 900
             },
-            "viewport": "desktop"
+            "viewport": "desktop",
+            "beforeWait": [
+                {
+                    "type": "scrollIntoView",
+                    "selector": ".capell-countdown",
+                    "block": "start"
+                }
+            ]
         }
     ],
-    "notes": "No screenshot runner target exists. Member extensions provide their own editor and public-output capture contracts."
+    "notes": "No screenshot runner target exists. Member extensions provide their own editor and public-output capture contracts.",
+    "fixtureCommands": ["capell:prepare-widget-screenshots"]
 }

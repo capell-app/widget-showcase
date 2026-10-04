@@ -10,8 +10,6 @@ Widget Showcase is a dependency bundle for the ten standalone Capell widget pack
 
 Installing the bundle makes its required widget packages available through their own registrations; Widget Showcase itself adds no runtime surface itself: no visible editor or public output.
 
-Evidence: [`capell.json`](capell.json), [`composer.json`](composer.json), [`tests/Unit/WidgetShowcaseManifestTest.php`](tests/Unit/WidgetShowcaseManifestTest.php).
-
 Status details:
 
 - Status: Available
@@ -27,18 +25,16 @@ Status details:
 
 **For teams:** Teams can require the curated widget set as one package while enabling and using each included widget through its own Capell surface.
 
-Evidence: [`capell.json`](capell.json), [`composer.json`](composer.json), [`tests/Unit/WidgetShowcaseManifestTest.php`](tests/Unit/WidgetShowcaseManifestTest.php).
-
 ## Screens And Workflow
 
 Screenshot contract: `docs/screenshots.json`.
 
 ![Widget Showcase extension card](docs/screenshots/extension-card.svg)
 
-![Illustrative widget showcase catalogue card](docs/screenshots/widget-showcase-catalogue-preview.png)
+![Installed widget showcase](docs/screenshots/widget-showcase-catalogue-preview.png)
 
 - Widget Showcase extension card (marketplace, required evidence).
-- Illustrative widget showcase catalogue card (frontend, required evidence).
+- Installed widget showcase (frontend, required evidence).
 
 ## Technical Shape
 
@@ -69,7 +65,7 @@ This package has no schema impact. It delegates runtime behaviour to `capell-app
 ## Quick Start
 
 1. Install the package: `composer require capell-app/widget-showcase`.
-2. Open `/screenshot-fixtures/catalogue/widget-showcase/widget-showcase-catalogue-preview` and confirm the public output renders without admin state.
+2. Open the package detail or install-intent surface and confirm the Widget Showcase extension card is present.
 
 ## Next Steps
 
@@ -81,6 +77,5 @@ This package has no schema impact. It delegates runtime behaviour to `capell-app
 - [Capell documentation design system](../../docs/DESIGN_SYSTEM.md)
 - [Capell and package ERD notes](../../docs/erd/capell-and-package-erds.md)
 - Related packages: [Widget Audio Playlist](../widget-audio-playlist/README.md), [Widget Before After](../widget-before-after/README.md), [Widget Content Reveal](../widget-content-reveal/README.md), [Widget Countdown](../widget-countdown/README.md), [Widget Data Chart](../widget-data-chart/README.md), [Widget Hotspots](../widget-hotspots/README.md), [Widget Live Poll](../widget-live-poll/README.md), [Widget Location Map](../widget-location-map/README.md), [Widget Slideshow](../widget-slideshow/README.md), [Widget Youtube](../widget-youtube/README.md).
-- Focused tests: `vendor/bin/pest packages/widget-showcase/tests --configuration=phpunit.xml`.
 
 <!-- prettier-ignore-end -->
