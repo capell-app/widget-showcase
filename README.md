@@ -29,11 +29,9 @@ Status details:
 
 Screenshot contract: `docs/screenshots.json`.
 
-![Widget Showcase extension card](docs/screenshots/extension-card.svg)
-
 ![Installed widget showcase](docs/screenshots/widget-showcase-catalogue-preview.png)
 
-- Widget Showcase extension card (marketplace, required evidence).
+- Widget Showcase extension card (marketplace, supplementary documentation fixture).
 - Installed widget showcase (frontend, required evidence).
 
 ## Technical Shape
@@ -65,7 +63,7 @@ This package has no schema impact. It delegates runtime behaviour to `capell-app
 ## Quick Start
 
 1. Install the package: `composer require capell-app/widget-showcase`.
-2. Open the package detail or install-intent surface and confirm the Widget Showcase extension card is present.
+2. Verify the package provider and manifest contributions are registered in the host app.
 
 ## Next Steps
 

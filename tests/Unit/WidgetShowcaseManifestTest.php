@@ -16,6 +16,20 @@ it('keeps composer and manifest members in exact parity', function (): void {
     sort($composerMembers);
     $manifestMembers = widgetShowcaseStringList($manifest, 'dependencies.requires');
     sort($manifestMembers);
+
+    foreach ($manifestMembers as $member) {
+        $memberDirectory = dirname($root) . '/' . substr($member, strlen('capell-app/'));
+        $memberManifest = capell_json_file_array($memberDirectory . '/capell.json');
+        $assetDeclarations = array_values(array_filter(
+            widgetShowcaseArrayList($memberManifest, 'contributes'),
+            static fn (array $entry): bool => ($entry['type'] ?? null) === 'asset',
+        ));
+
+        expect($assetDeclarations)->toHaveCount(1)
+            ->and($assetDeclarations[0]['key'] ?? null)->toBe('resource-group:' . str_replace('/', '.', $member))
+            ->and(is_file($memberDirectory . '/resources/dist/widget.css'))->toBeTrue()
+            ->and(is_file($memberDirectory . '/resources/dist/widget.js'))->toBeTrue();
+    }
     $screenshotEntries = widgetShowcaseArrayList($screenshotContract, 'entries');
     $firstScreenshot = $screenshotEntries[0] ?? [];
 
