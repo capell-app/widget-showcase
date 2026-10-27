@@ -65,6 +65,10 @@ This package has no schema impact. It delegates runtime behaviour to `capell-app
 1. Install the package: `composer require capell-app/widget-showcase`.
 2. Verify the package provider and manifest contributions are registered in the host app.
 
+## Upgrading
+
+No manual steps between minor versions.
+
 ## Next Steps
 
 - [Package docs](docs/README.md)
