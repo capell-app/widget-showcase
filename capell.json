@@ -8,7 +8,7 @@
     "version": "1.0.0",
     "description": "A dependency bundle that installs all ten Capell Foundation widget extensions together; it adds no runtime surface itself.",
     "product": {
-        "group": "Capell Foundation",
+        "group": "Capell Essentials",
         "tier": "free",
         "bundle": "foundation"
     },
@@ -106,8 +106,30 @@
         "privateDocsRequested": false
     },
     "marketplace": {
-        "summary": "Install the ten free Foundation widget extensions together. This dependency bundle has no page or widget of its own.",
+        "summary": "Install the ten free Capell Essentials widget extensions together. This dependency bundle has no page or widget of its own.",
+        "description": "Widget Showcase installs the ten free Capell Essentials widget extensions in one step: audio playlist, before and after, content reveal, countdown, data chart, hotspots, live poll, location map, slideshow and YouTube. Each widget needs Layout Builder and keeps its own limits and settings. The bundle itself adds no screens, settings or public output.",
+        "problem": "Teams assembling a set of page widgets must identify and install each package individually.",
+        "outcome": "A site has the bundle’s required widget packages available through their own registrations.",
+        "faq": [
+            {
+                "question": "Does the bundle add its own widget?",
+                "answer": "No. It has no editor or public runtime surface of its own."
+            },
+            {
+                "question": "How are included widgets made available?",
+                "answer": "The ten standalone widget packages provide their own registrations and surfaces."
+            },
+            {
+                "question": "Is the widget bundle free?",
+                "answer": "Yes. Widget Showcase is in the free tier."
+            }
+        ],
         "screenshots": [
+            {
+                "path": "docs/assets/marketplace/listing-widget-showcase-installed.png",
+                "alt": "The ten Capell Essentials widgets installed together on one public page",
+                "caption": "Installed widget showcase"
+            },
             {
                 "path": "docs/assets/marketplace/extension-card.svg",
                 "alt": "Widget Showcase extension bundle card",

@@ -1,6 +1,6 @@
 {
     "name": "capell-app/widget-showcase",
-    "description": "Install all ten free Capell Foundation widget extensions as one bundle.",
+    "description": "Install all ten free Capell Essentials widget extensions as one bundle.",
     "type": "library",
     "license": "proprietary",
     "require": {

@@ -4,7 +4,7 @@
 
 ## What it does
 
-Widget Showcase is a dependency bundle that installs all ten free Capell Foundation widget extensions together. It has no page, widget, provider, contribution, or runtime surface of its own.
+Widget Showcase is a dependency bundle that installs all ten free Capell Essentials widget extensions together. It has no page, widget, provider, contribution, or runtime surface of its own.
 
 ## Do I need to do anything?
 
@@ -16,7 +16,7 @@ It does not appear in the admin or public frontend. The ten member extensions ap
 
 ## Good to know
 
-- This free beta bundle belongs to Capell Foundation and installs ten independently managed extensions.
+- This free beta bundle belongs to Capell Essentials and installs ten independently managed extensions.
 - It is a Composer dependency bundle only: it declares the ten member packages but adds no provider, contribution, database schema, admin page, or frontend runtime.
 - Removing the bundle can remove member packages on the next Composer update when nothing else requires them. Check dependency usage and any pages using member widgets before changing the bundle requirement.
 

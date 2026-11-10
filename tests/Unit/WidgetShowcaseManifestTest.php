@@ -39,7 +39,11 @@ it('keeps composer and manifest members in exact parity', function (): void {
         ->and(widgetShowcaseArray($manifest, 'contributes'))->toBe([])
         ->and(widgetShowcaseArray($manifest, 'healthChecks'))->toBe([])
         ->and(widgetShowcaseArray($manifest, 'surfaces'))->toBe([])
-        ->and(widgetShowcaseArrayList($manifest, 'marketplace.screenshots'))->toHaveCount(1)
+        ->and(array_column(widgetShowcaseArrayList($manifest, 'marketplace.screenshots'), 'path'))->toBe([
+            'docs/assets/marketplace/listing-widget-showcase-installed.png',
+            'docs/assets/marketplace/extension-card.svg',
+        ])
+        ->and(file_exists($root . '/docs/assets/marketplace/listing-widget-showcase-installed.png'))->toBeTrue()
         ->and($firstScreenshot['surface'] ?? null)->toBe('marketplace')
         ->and($firstScreenshot['targetType'] ?? null)->toBe('artifact')
         ->and($firstScreenshot['required'] ?? null)->toBeFalse()
