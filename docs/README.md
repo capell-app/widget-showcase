@@ -2,14 +2,14 @@
 
 Widget Showcase installs the complete Foundation widget set as a dependency bundle and owns no runtime screen.
 
-Start at the [package README](../README.md) for the developer boundary, then use the Marketplace overview and screenshot contract below.
+Start at the [package README](../README.md) for the developer boundary, then use the Marketplace overview and screenshots below.
 
 ## Guides
 
 | Doc                                                          | Use it for                                                           |
 | ------------------------------------------------------------ | -------------------------------------------------------------------- |
 | [Overview](overview.md)                                      | Buyer value, visible surfaces, setup expectations, and safety notes. |
-| [Screenshot contract](screenshots.json)                      | The explicit visual exemption for this dependency-only bundle.       |
+| [Screenshots](screenshots.json)                              | The explicit visual exemption for this dependency-only bundle.       |
 | [Marketplace artwork](assets/marketplace/extension-card.svg) | An honest bundle diagram that does not imply a product screen.       |
 
 ## Read Next

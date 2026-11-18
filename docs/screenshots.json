@@ -20,7 +20,7 @@
             "path": "docs/assets/marketplace/extension-card.svg",
             "fixtureKind": "illustrative-catalogue",
             "notes": "Committed Beta Marketplace card artwork for Widget Showcase.",
-            "useCase": "A buyer reviews the Beta extension card before enabling Widget Showcase."
+            "useCase": "The Widget Showcase extension card, marked Beta."
         },
         {
             "id": "widget-showcase-catalogue-preview",
@@ -34,7 +34,7 @@
             "colorSchemes": ["light", "dark"],
             "screenshotPath": "packages/widget-showcase/docs/screenshots/widget-showcase-catalogue-preview.png",
             "notes": "Capture the installed public page rendered from the package widget definition, with its real assets and local media. Verify the visible widget and its interaction; reject empty, unavailable or unstyled output.",
-            "useCase": "A buyer can distinguish this package in the marketplace catalogue without mistaking placeholder artwork for product UI.",
+            "useCase": "The Widget Showcase extension card in the Marketplace.",
             "darkScreenshotPath": "packages/widget-showcase/docs/screenshots/widget-showcase-catalogue-preview-dark.png",
             "user": false,
             "waitFor": ".capell-countdown",

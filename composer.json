@@ -1,6 +1,6 @@
 {
     "name": "capell-app/widget-showcase",
-    "description": "Install all ten free Capell Essentials widget extensions as one bundle.",
+    "description": "Bundle of ten Capell page widgets including a slider, slideshow, playlist, video, countdown, chart, map and poll.",
     "type": "library",
     "license": "proprietary",
     "require": {

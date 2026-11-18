@@ -6,7 +6,7 @@ Developer reference for `capell-app/widget-showcase`. Start with the [README](..
 
 ## Package Details
 
-Widget Showcase is an **Available**, **No schema impact** Capell bundle in the **Capell Essentials** product group. It ships as `capell-app/widget-showcase` and extends these surfaces: none declared.
+Widget Showcase is an **Available** Capell bundle in the **Capell Essentials** product group. It ships as `capell-app/widget-showcase` and extends these surfaces: none declared.
 
 - Status: Available
 - Tier: free

@@ -1,0 +1,8 @@
+{
+    "audience": "site owners and developers adding the ten widgets to a Capell site",
+    "prerequisites": "Layout Builder is installed. Running `composer require` only downloads the bundle and its ten widgets; they stay inactive until the bundle is installed in Capell.",
+    "destination": "/admin/extensions",
+    "task": "Install **Widget Showcase**, or run `php artisan capell:extension-install capell-app/widget-showcase`, which also installs any of the ten widgets that are not installed yet.",
+    "expectedResult": "All ten widgets are listed as installed and appear by name in the Layout Builder widget list.",
+    "nextStep": "Open a page, click **Layout builder**, **Add widgets**, then choose a widget such as **Slideshow** or **Countdown**."
+}

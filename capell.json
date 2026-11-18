@@ -6,7 +6,7 @@
     "kind": "bundle",
     "capellApiVersion": "^1.0",
     "version": "1.0.0",
-    "description": "A dependency bundle that installs all ten Capell Foundation widget extensions together; it adds no runtime surface itself.",
+    "description": "Ten page widgets in one install, covering images, audio, video, charts, maps, polls, countdowns and pop-up cards.",
     "product": {
         "group": "Capell Essentials",
         "tier": "free",
@@ -106,34 +106,42 @@
         "privateDocsRequested": false
     },
     "marketplace": {
-        "summary": "Install the ten free Capell Essentials widget extensions together. This dependency bundle has no page or widget of its own.",
-        "description": "Widget Showcase installs the ten free Capell Essentials widget extensions in one step: audio playlist, before and after, content reveal, countdown, data chart, hotspots, live poll, location map, slideshow and YouTube. Each widget needs Layout Builder and keeps its own limits and settings. The bundle itself adds no screens, settings or public output.",
-        "problem": "Teams assembling a set of page widgets must identify and install each package individually.",
-        "outcome": "A site has the bundle’s required widget packages available through their own registrations.",
+        "summary": "One bundle that brings in ten page widgets, from a before and after slider to a countdown, chart, map and poll.",
+        "description": "A bundle of ten widgets for pages built in Layout Builder. It includes a before and after slider, numbered image points, a slideshow, an audio playlist, a YouTube video, a countdown, a chart, a location map, a live poll and pop-up cards. You choose which to place on a page.",
+        "problem": "I want a full set of page widgets without finding and installing each package one by one.",
+        "outcome": "Ten page widgets arrive in one install and appear in the widget list.",
         "faq": [
             {
-                "question": "Does the bundle add its own widget?",
-                "answer": "No. It has no editor or public runtime surface of its own."
+                "question": "What do I get when I install the bundle?",
+                "answer": "Ten page widgets, so editors can try them before deciding which to use. The bundle has nothing to configure, and each widget has its own settings."
             },
             {
-                "question": "How are included widgets made available?",
-                "answer": "The ten standalone widget packages provide their own registrations and surfaces."
+                "question": "Which widgets are included?",
+                "answer": "Before and after, hotspots, slideshow, audio playlist, YouTube, countdown, data chart, location map, live poll and content reveal."
             },
             {
-                "question": "Is the widget bundle free?",
-                "answer": "Yes. Widget Showcase is in the free tier."
+                "question": "What do the widgets need?",
+                "answer": "Every widget needs Layout Builder, the page builder, so editors can add it to a page."
+            },
+            {
+                "question": "Can I install only some of the widgets?",
+                "answer": "Yes. Each widget is a package of its own, so you can install just the ones you want instead of the bundle."
+            },
+            {
+                "question": "What happens if one widget fails to install?",
+                "answer": "The other widgets added during that run are marked as not installed again."
             }
         ],
         "screenshots": [
             {
                 "path": "docs/assets/marketplace/listing-widget-showcase-installed.png",
-                "alt": "The ten Capell Essentials widgets installed together on one public page",
-                "caption": "Installed widget showcase"
+                "alt": "Part of a public page with the foot of a patterned bar chart, a Chart data line and a corridor photo with two numbered dots",
+                "caption": "A chart and a photo with numbered dots, from two of the widgets, share one public page."
             },
             {
                 "path": "docs/assets/marketplace/extension-card.svg",
-                "alt": "Widget Showcase extension bundle card",
-                "caption": "Widget Showcase installs all ten Foundation widget extensions."
+                "alt": "Marketplace card for Widget Showcase with a grid of ten small tiles and a label saying the bundle has no screen",
+                "caption": "The bundle installs ten widgets and has no screen of its own."
             }
         ],
         "categories": ["bundle", "foundation"]

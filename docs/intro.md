@@ -1,0 +1,5 @@
+Ten page widgets come in one install, so an editor can try them all before choosing which to use. That one install is a bundle, and the bundle itself has no screens or settings of its own.
+
+For images there is a before and after slider, numbered points on a single picture and a slideshow of up to twenty slides. A playlist of recordings with transcripts and chapters sits beside a YouTube video that loads only when a visitor presses Play. Visitors can watch a countdown to an event or read a chart built from figures you type in. A list of up to twenty places links each one to OpenStreetMap. A poll asks one question and takes one vote per browser, and cards can open a pop-up or side panel.
+
+Every widget has its own settings and limits and needs Layout Builder, where editors add widgets to a page. Install the bundle from Capell's package manager and any of the ten not already installed is added. If one fails, the others added in that install are marked as not installed again. Editors find each one under its own name in the widget list.

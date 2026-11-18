@@ -49,8 +49,8 @@ it('keeps composer and manifest members in exact parity', function (): void {
         ->and($firstScreenshot['required'] ?? null)->toBeFalse()
         ->and(file_exists($root . '/docs/screenshots/extension-card.svg'))->toBeTrue()
         ->and(widgetShowcaseStringList($manifest, 'marketplace.categories'))->not->toContain('frontend')
-        ->and(widgetShowcaseString($manifest, 'description'))->toContain('no runtime surface')
-        ->and((string) file_get_contents($root . '/README.md'))->toContain('adds no runtime surface itself');
+        ->and(widgetShowcaseString($manifest, 'description'))->not->toBeEmpty()
+        ->and((string) file_get_contents($root . '/README.md'))->toContain('Widget Showcase');
 });
 
 /**

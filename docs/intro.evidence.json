@@ -1,0 +1,46 @@
+[
+    {
+        "claim": "Ten page widgets come in one install, so an editor can try them all before choosing which to use.",
+        "evidence": ["capell.json", "composer.json"]
+    },
+    {
+        "claim": "That one install is a bundle, and the bundle itself has no screens or settings of its own.",
+        "evidence": ["capell.json"]
+    },
+    {
+        "claim": "For images there is a before and after slider, numbered points on a single picture and a slideshow of up to twenty slides.",
+        "evidence": ["capell.json", "composer.json"]
+    },
+    {
+        "claim": "A playlist of recordings with transcripts and chapters sits beside a YouTube video that loads only when a visitor presses Play.",
+        "evidence": ["capell.json", "composer.json"]
+    },
+    {
+        "claim": "Visitors can watch a countdown to an event or read a chart built from figures you type in.",
+        "evidence": ["capell.json", "composer.json"]
+    },
+    {
+        "claim": "A list of up to twenty places links each one to OpenStreetMap.",
+        "evidence": ["capell.json", "composer.json"]
+    },
+    {
+        "claim": "A poll asks one question and takes one vote per browser, and cards can open a pop-up or side panel.",
+        "evidence": ["capell.json", "composer.json"]
+    },
+    {
+        "claim": "Every widget has its own settings and limits and needs Layout Builder, where editors add widgets to a page.",
+        "evidence": ["capell.json"]
+    },
+    {
+        "claim": "Install the bundle from Capell's package manager and any of the ten not already installed is added.",
+        "evidence": ["capell.json", "tests/Unit/WidgetShowcaseManifestTest.php"]
+    },
+    {
+        "claim": "If one fails, the others added in that install are marked as not installed again.",
+        "evidence": ["capell.json"]
+    },
+    {
+        "claim": "Editors find each one under its own name in the widget list.",
+        "evidence": ["capell.json"]
+    }
+]
