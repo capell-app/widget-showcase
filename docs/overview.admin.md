@@ -15,7 +15,3 @@ It does not appear in the admin or public frontend. The ten member extensions ap
 - This free beta bundle belongs to Capell Essentials and installs ten independently managed extensions.
 - It is a Composer dependency bundle only: it declares the ten member packages but adds no provider, contribution, database schema, admin page, or frontend runtime.
 - Removing the bundle can remove member packages on the next Composer update when nothing else requires them. Check dependency usage and any pages using member widgets before changing the bundle requirement.
-
-## Screenshot status
-
-No product-screen capture is required because the bundle owns no screen. Its Marketplace card is a dependency diagram, not a product screenshot. The committed Marketplace artwork deliberately shows the bundle relationship.

@@ -8,14 +8,14 @@ For images there is a before and after slider, numbered points on a single pictu
 
 Every widget has its own settings and limits and needs Layout Builder, where editors add widgets to a page. Install the bundle from Capell's package manager and any of the ten not already installed is added. If one fails, the others added in that install are marked as not installed again. Editors find each one under its own name in the widget list.
 
-- **Price and availability:** Check current availability and price on the [Capell Marketplace listing](https://capell.app/extensions/widget-showcase).
-- **Licence:** Check the licence terms on the [Capell Marketplace listing](https://capell.app/extensions/widget-showcase).
+- **Price and availability:** Check current availability and price on the [Capell Marketplace listing](https://capell.app/marketplace/extensions/widget-showcase).
+- **Licence:** Check the licence terms on the [Capell Marketplace listing](https://capell.app/marketplace/extensions/widget-showcase).
 - **Requires:** `PHP ^8.4`, `capell-app/widget-audio-playlist ^1.0`, `capell-app/widget-before-after ^1.0`, `capell-app/widget-content-reveal ^1.0`, `capell-app/widget-countdown ^1.0`, `capell-app/widget-data-chart ^1.0`, `capell-app/widget-hotspots ^1.0`, `capell-app/widget-live-poll ^1.0`, `capell-app/widget-location-map ^1.0`, `capell-app/widget-slideshow ^1.0`, `capell-app/widget-youtube ^1.0`.
-- **Install:** `composer require capell-app/widget-showcase`.
+- **Install:** `composer require capell-app/widget-showcase:@beta`.
 
 ## Quick Start
 
-1. Install the package: `composer require capell-app/widget-showcase`.
+1. Install the package: `composer require capell-app/widget-showcase:@beta`.
 2. For site owners and developers adding the ten widgets to a Capell site: Layout Builder is installed. Running `composer require` only downloads the bundle and its ten widgets; they stay inactive until the bundle is installed in Capell.
 3. Open `/admin/extensions`. Install **Widget Showcase**, or run `php artisan capell:extension-install capell-app/widget-showcase`, which also installs any of the ten widgets that are not installed yet.
 4. Check the result: All ten widgets are listed as installed and appear by name in the Layout Builder widget list. Next: Open a page, click **Layout builder**, **Add widgets**, then choose a widget such as **Slideshow** or **Countdown**.

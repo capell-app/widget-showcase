@@ -1,7 +1,8 @@
 {
     "package": "widget-showcase",
     "composerName": "capell-app/widget-showcase",
-    "generatedFor": "deployment-screenshot-runner",
+    "generatedFor": "shared-capell-screenshot-runner",
+    "provenancePolicy": "runner-only-v1",
     "requiresInstalledPackage": true,
     "composerRequires": ["capell-app/widget-showcase"],
     "outputDirectory": "packages/widget-showcase/docs/screenshots",
