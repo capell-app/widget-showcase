@@ -6,6 +6,7 @@
     "kind": "bundle",
     "capellApiVersion": "^1.0",
     "version": "1.0.0",
+    "launchStatus": "preview",
     "description": "Ten page widgets in one install, covering images, audio, video, charts, maps, polls, countdowns and pop-up cards.",
     "product": {
         "group": "Capell Essentials",
